@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import LineGradient from "./LineGradient";
 
-type Props = {};
 
-const AboutMe = (props: Props) => {
+
+const AboutMe = () => {
   const AboutMeStyle = `mx-auto relative max-w-[400px] h-[350px] flex flex-col
     justify-end p-16 mt-48 before:absolute before:left-[35%] before:border-2
     before:w-[120px] before:h-[120px] before:bg-white before:-top-[15%] before:rounded-full
